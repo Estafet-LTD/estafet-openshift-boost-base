@@ -203,6 +203,7 @@
 
 	<modules>
 		<module>estafet-openshift-boost-springboot-db</module>
+		<module>estafet-openshift-boost-springboot-ui</module>
 	</modules>
 
 </project>
