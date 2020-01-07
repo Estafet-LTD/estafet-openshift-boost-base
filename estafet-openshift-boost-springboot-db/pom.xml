@@ -196,14 +196,14 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.estafet.microservices.db.GenerateDDL</mainClass>
+					<mainClass>ccom.estafet.microservices.scrum.lib.data.db.GenerateDDL</mainClass>
 					<arguments>
 						<argument>${microservice}</argument>
 					</arguments>
 				</configuration>
 				<dependencies>
 					<dependency>
-						<groupId>com.estafet.microservices.scrum.lib.data.db.GenerateDDL</groupId>
+						<groupId>com.estafet.microservices.scrum</groupId>
 						<artifactId>microservices-scrum-data-lib</artifactId>
 						<version>1.0.9</version>
 					</dependency>
