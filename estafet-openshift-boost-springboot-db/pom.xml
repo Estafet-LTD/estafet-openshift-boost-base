@@ -5,7 +5,6 @@
 		<artifactId>estafet-openshift-boost-springboot</artifactId>
 		<version>1.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.estafet.openshift.boost</groupId>
 	<artifactId>estafet-openshift-boost-springboot-db</artifactId>
 	<packaging>pom</packaging>
 
