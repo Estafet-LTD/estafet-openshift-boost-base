@@ -184,7 +184,7 @@
 		</profile>				
 	</profiles>
 
-	<build>
+<!-- 	<build>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -210,7 +210,7 @@
 				</dependencies>
 			</plugin>
 		</plugins>
-	</build>
+	</build> -->
 
 	<dependencyManagement>
 		<dependencies>
@@ -225,6 +225,11 @@
 	</dependencyManagement>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.estafet.microservices.scrum</groupId>
+			<artifactId>microservices-scrum-data-lib</artifactId>
+			<version>1.0.9</version>
+		</dependency>	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-activemq</artifactId>
