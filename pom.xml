@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.estafet.openshift.boost</groupId>
-	<artifactId>estafet-openshift-boost-springboot</artifactId>
+	<groupId>com.estafet.boostcd</groupId>
+	<artifactId>boostcd-springboot</artifactId>
 	<version>1.1.7-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -202,17 +202,17 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:https://github.com/Estafet-LTD/estafet-openshift-boost-springboot.git</connection>
-		<developerConnection>scm:git:https://github.com/Estafet-LTD/estafet-openshift-boost-springboot.git</developerConnection>
-		<url>https://github.com/Estafet-LTD/estafet-openshift-boost-springboot</url>
+		<connection>scm:git:https://github.com/boostcd/boost-springboot.git</connection>
+		<developerConnection>scm:git:https://github.com/boostcd/boost-springboot.git</developerConnection>
+		<url>https://github.com/boostcd/boost-springboot</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<modules>
-		<module>estafet-openshift-boost-springboot-db</module>
-		<module>estafet-openshift-boost-springboot-ui</module>
-		<module>estafet-openshift-boost-springboot-amq</module>
-        <module>estafet-openshift-boost-springboot-couchbase</module>
+		<module>boost-springboot-jpa</module>
+		<module>boost-springboot-mvc</module>
+		<module>boost-springboot-amq</module>
+        <module>boost-springboot-couchbase</module>
     </modules>
 
 </project>
