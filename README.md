@@ -1,1 +1,1 @@
-# estafet-openshift-boost-springboot
+# boostcd-springboot
